@@ -1,0 +1,76 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  color: floralwhite;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+}
+
+#weather {
+  position: absolute;
+  top: 8px;
+  right: 1%;
+  font-size: 30px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 1px;
+  right: 100px;
+  left: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#todo-list{
+  width: 300px;
+  margin: 10px auto;
+}
+
+#form {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+}
+
+.login-css {
+  width: 200px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+.todo-css {
+  width: 500px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
